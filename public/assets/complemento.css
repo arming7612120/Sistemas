@@ -1,0 +1,87 @@
+
+/* en la plantilla layout----------------*/
+.banner.sipefab{
+	width: 100%;
+}
+
+.banner-sipefab img{
+	width: 100%;
+}
+
+@media screen and (max-width: 766px){
+	.banner-sipefab{
+		display: none;
+	}
+}
+
+/* en la plantilla inicio-----------------*/
+.sipefab{
+	width: 100%;
+	text-align: center;
+	margin:auto;
+}
+
+.gallineta{
+	width: 100%;
+	text-align: center;
+	margin:auto;
+}
+
+.gallineta img{
+	width: 80%;
+}
+
+
+/* informacion de persona-----------------------*/
+.contenedor-informacion{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.contenido-imagen{
+	text-align: center;
+	margin:all;
+	width: 20%;
+}
+
+.contenido-imagen > img{
+	width: 200px;
+	height: 200px;
+}
+
+.contenido-detalle{
+	width: 80%;
+}
+
+@media screen and (max-width: 1350px){
+	.contenido-imagen{
+		width: 100%;
+	}
+}
+
+/* informacion en el modal-----------------------*/
+.contenido-modal{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.imagen-modal{
+	text-align: center;
+	margin: auto;
+	width: 30%;
+}
+
+.imagen-modal img{
+	width: 120px;
+	height: 120px;
+}
+
+.detalle-modal{
+	width: 70%;
+}
